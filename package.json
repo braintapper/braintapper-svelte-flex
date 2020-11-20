@@ -1,6 +1,6 @@
 {
   "name": "braintapper-svelte-flex",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Svelte component for flexbox rows and columns",
   "author": "braintapper",
   "license": "MIT",

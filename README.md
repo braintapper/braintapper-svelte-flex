@@ -41,7 +41,7 @@ Import the components you need in your `<script>` tag:
 The `<FlexRowCell>` and `<FlexColumnCell>` take a flex prop/attribute.
 
 
-Example `flex` attribute values:
+#### Example `flex` attribute values
 
 
 0 - 100 in increments of 5 translate to width in %
@@ -56,7 +56,7 @@ Example: `<FlexRowCell flex={33}>`
 
 ---
 
-When flex is present, it will fill the row/cell as required:
+When flex is present with an unmatched value in its CSS, it will fill the row/cell as required:
 
 Example: `<FlexRowCell flex>`
 
