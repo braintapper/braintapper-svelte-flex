@@ -7,22 +7,19 @@
 
 </script>
 
-<div layout="column" {style} {id} class={classes} {flex}>
+<div {style} {id} class={classes} {flex}>
   <slot/>
 </div>
 
 <style>
 
-  [layout] {
+  div {
     box-sizing: border-box;
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
     display: -ms-flexbox;
     display: flex; 
-  }
-
-  [layout=column] {
     flex-direction: column; 
   }
 

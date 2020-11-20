@@ -13,16 +13,15 @@
 
 <style>
 
-  [layout] {
+  div {
     box-sizing: border-box;
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
     display: -ms-flexbox;
-    display: flex; }
-
-  [layout=row] {
-  flex-direction: row; 
-  max-width: 100%;}
+    display: flex; 
+    flex-direction: row; 
+    max-width: 100%;
+  }
   
 </style>
