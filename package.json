@@ -1,5 +1,12 @@
 {
-  "name": "SvelteComponent",
+  "name": "braintapper-svelte-flex",
+  "version": "0.0.1",
+  "description": "Svelte component for flexbox rows and columns",
+  "author": "braintapper",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/braintapper/braintapper-svelte-flex"
+  },
   "svelte": "src/index.js",
   "module": "dist/index.mjs",
   "main": "dist/index.js",
@@ -14,7 +21,8 @@
     "svelte": "^3.0.0"
   },
   "keywords": [
-    "svelte"
+    "svelte",
+    "flexbox"
   ],
   "files": [
     "src",
